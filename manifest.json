@@ -1,9 +1,14 @@
 {
     "manifest_version": 3,
-    "name": "LMS Auto Answer",
-    "description": "Automatically fills answers on LMS tests",
+    "name": "JSON Formatter & Viewer",
+    "description": "Advanced tool for formatting and viewing JSON data in the browser.",
     "version": "1.0",
-    "permissions": ["scripting"],
+    "permissions": ["scripting", "storage"],
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
     "content_scripts": [
       {
         "matches": ["https://learn.ucu.edu.ua/mod/quiz/*"],
@@ -18,7 +23,8 @@
       }
     ],
     "action": {
-      "default_title": "LMS Auto Answer"
+      "default_title": "JSON Formatter",
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
     }
   }
-  

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 200px;
+      padding: 10px;
+      font-family: sans-serif;
+    }
+    .option {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h3>JSON Viewer Settings</h3>
+  <div class="option">
+    <label for="slowFilling">Enable Pretty Print Delay</label>
+    <input type="checkbox" id="slowFilling">
+  </div>
+  <button id="forceFill" style="width: 100%; margin-top: 10px; cursor: pointer;">Reparse JSON Now</button>
+  <script src="popup.js"></script>
+</body>
+</html>

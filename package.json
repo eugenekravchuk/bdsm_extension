@@ -1,0 +1,11 @@
+{
+  "name": "lms-auto-answer",
+  "version": "1.0.0",
+  "description": "LMS Auto Answer Extension",
+  "scripts": {
+    "start": "bash launch.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
